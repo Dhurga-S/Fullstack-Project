@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+/*
+ * Global typography base.
+ * Tailwind resets everything to 14px (text-sm) by default.
+ * Setting 16px here lifts the entire app one notch without
+ * touching every individual Tailwind class.
+ */
+html {
+  font-size: 16px;
+}
+
+body {
+  font-size: 1rem; /* 16px */
+  line-height: 1.6;
+}
